@@ -1,0 +1,10 @@
+{
+  "name": "codmos-insights",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/preview.mjs",
+    "build:standalone": "node scripts/build-standalone.mjs",
+    "check": "node --check dist/app.js && node --check dist/mock-data.js"
+  }
+}
